@@ -48,3 +48,7 @@ button:hover {
 .button {
   font-family: "Epilogue", sans-serif;
 }
+/* LEADING SCORE */
+.green-text {
+  color: darkseagreen;
+}
