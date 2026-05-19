@@ -36,4 +36,9 @@ function addThreeGuest() {
   guestScoreEl.textContent = guestScore;
 }
 //----------------------- NEW GAME
-function newGame() {}
+function newGame() {
+  guestScore = 0;
+  homeScore = 0;
+  guestScoreEl.textContent = 0;
+  homeScoreEl.textContent = 0;
+}
