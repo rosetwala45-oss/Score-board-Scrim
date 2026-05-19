@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+h3 {
+  font-family: "Epilogue", sans-serif;
+  color: white;
+  font-size: 36px;
+}
+button {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 25px;
+  color: #9aabd8;
+  background-color: #1b244a;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #9aabd8;
+  color: #1b244a;
+}
+
+.container {
+  background-color: #1b244a;
+  margin: 5rem;
+  padding: 5rem;
+  border-radius: 10px;
+  text-align: center;
+}
+.score-container {
+  display: flex;
+  justify-content: space-around;
+}
+.score-el {
+  background-color: black;
+  width: 155px;
+  color: #f94f6d;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding-top: 10px;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 120px;
+}
+.button {
+  font-family: "Epilogue", sans-serif;
+}
